@@ -5,55 +5,103 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Tale Of Us</title>
         <link rel="stylesheet" href="estilos_artista.css" />
+        <script src="https://kit.fontawesome.com/be0e929fe9.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <!-- Background-position-x o y: cambiar medidas de fondo y posisión de imagen -->
 
         <header>
-            <h1 class="titulos">Tale Of Us</h1>
+           <!-- <h1 class="titulos" style="position: relative; margin-top: 1.25rem;">Tale Of Us</h1> -->
+            <nav class="menu">
+                <ul class="nav_ul">
+                    <li class="nav_li"> 
+                        <a
+                            href="#Bibl"
+                        >   <i class="fas fa-house-user i_norm"></i>
+                            Bibliografía 
+                        </a>
+                    </li>
 
-            <nav>
-                <a
-                    class="Button"
-                    href="file:///D:/Visual%20Studio%20Code/program/proyectos/Principiantes/index_artista-1.html"
-                >
-                    Bibliografía
-                </a>
+                    <li class="nav_li"> 
+                        <a
+                            href="#Afterlife"
+                        > <i class="fas fa-compact-disc i_norm"></i>
+                            Afterlife
+                        </a>
+                    </li>
 
-                <a
-                    class="Button"
-                    href="file:///D:/Visual%20Studio%20Code/program/proyectos/Principiantes/index_artista-1.html"
-                >
-                    Afterlife
-                </a>
+                    <li class="nav_li"> 
+                        <a href="tracks_spotify.html"> <i class="fas fa-music i_norm"></i>
+                            Tracks 
+                        </a>
+                    </li>
 
-                <a
-                    class="Button"
-                    href="file:///D:/Visual%20Studio%20Code/program/proyectos/Principiantes/index_artista-1.html"
-                >
-                    Albums
-                </a>
+                    <li class="nav_li"> 
+                        <a href="sets_tabla.html"> <i class="fas fa-play-circle i_norm"></i> 
+                            Sets 
+                        </a>
+                    </li>
+                </ul>
 
-                <a class="Button" href="index_artista-1.html"> Tracks </a>
+                <ul class="nav-responsive-ul">
+                    <i class="fas fa-bars nav-button responsive-bar"></i>
+                    <div class="nav-li-container">
+                            <li>
+                                <a
+                                    href="#Bibl"
+                                > <i class="fas fa-house-user i_norm"></i>
+                                    Bibliografía
+                                </a>
+                            </li>
 
-                <a class="Button" href="index_artista-1.html"> Sets </a>
+                            <li>
+                                <a
+                                    href="#Afterlife"
+                                > <i class="fas fa-compact-disc i_norm"></i>
+                                    Afterlife
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="tracks_spotify.html"> <i class="fas fa-play-circle i_norm"></i> Tracks </a>
+                            </li>
+
+                            <li>
+                                <a href="sets_tabla.html"> <i class="fas fa-play-circle i_norm"></i> Sets </a>
+                            </li>
+                    </div>
+                </ul>
             </nav>
+            <h1 class="titulos">Tale Of Us</h1>
         </header>
 
-        <main>
-            <section>
+        <h2 class="titulos" style="margin-top: 20px" id="Bibl">Bibliografía</h2>
+
+        <main style="margin: 10px 10px 20px 30px; display: flex;">
+            <div class="Main-box">
                 <article>
-                    <h2 class="titulos">Bibliografía</h2>
                     <p class="parrafo_blank">
                         Tales of Us es un proyecto basado en Berlín y formado
                         por los milaneses Karm y Matteo. Ambos comparten una
                         visión particular de la música electrónica que reúne
-                        elementos del techno y del house, para mezclarlos con
-                        pop, nu disco o rock. Sus producciones, siempre
-                        reconocibles, pueden ir desde la pista de baile al salón
-                        de casa, con composiciones más abstractas. <br />
+                        elementos del <b>techno</b> y del <i>house</i>, para
+                        mezclarlos con pop, nu disco o <u>rock</u>. Sus
+                        producciones, siempre reconocibles, pueden ir desde la
+                        pista de baile al salón de casa, con composiciones más
+                        abstractas. <br />
 
-                        Para ir a una pagina <br />
+                        Esta mezcla les ha llevado a ser fijos en la programación 
+                        de clubs como el Watergate y el Weekend de Berlín, 
+                        el Tenax florentino o la Barraca de Valencia y el DC10 ibicenco
+                        (además de las fiestas Just This en su ciudad natal del norte de Italia
+                        Karm nació en Toronto y Matteo en Nueva York pero se mudaron al país transalpino de niños)).
+                        Amigos de Seth Troxler, Shaun Reeves, Ryan Crosson y Lee Curtiss,
+                        todos ellos apasionados por la música de la pareja, han sido publicados en el sello 
+                        propiedad de estos: Visionquest. Previamente ya habían publicado en Barraca Music y
+                        Life & Death. Fijos de todo gran festival de electrónica que se precie, 
+                        el cuento de Tale of Us acaba de empezar... <br />
+
+                        Para ir a página oficial <br />
                         <a
                             href="https://www.clubbingspain.com/artistas/italia/tale-of-us.html"
                             target="_blank"
@@ -61,36 +109,93 @@
                             haga click aqui
                         </a>
                     </p>
-                </article>
-            </section>
+                
+                    <h1 class="titulos" id="Afterlife">Afterlife</h1>
 
-            <section>
-                <form action="datos.html" target="_blank">
-                    <fieldset>
-                        <leyend>Hola</leyend>
-                        <select name="genero">
-                            <option>Masculino</option>
-                            <option>Femenino</option>
-                        </select>
+                    <div class="Paragraf-container">
+                        <p class="parrafo-aferlife">
+                            Afterlife es el nombre de su sello discográfico donde se puede ver bien impregnado su estilo,
+                            un Techno melódico donde a través de todas las percusiones, las notas, los acordes y las vocales 
+                            que transmiten toda la esencia del sello y de los artistas. 
+                            Como ellos lo dicen, es “una odisea a través del reino de la conciencia”.
+                        </p>
 
-                        <label>
-                            <placeholder>Nombre completo</placeholder>
-                            <p>
-                                Ingrese su nombre aqui:
-                                <input
-                                    type="text"
-                                    name="nombre"
-                                    maxlength="10"
-                                    size="10"
-                                />
-                            </p>
-                        </label>
+                        <img src="afterlife.jpg" alt="afterlife" id="img-parr">
+                    </div>
 
-                        <textarea name="mensaje"></textarea>
-                        <input type="submit" value="Enviar" />
-                    </fieldset>
-                </form>
-            </section>
+                    <div class="Form-container">
+                        <form action="datos.html" target="_blank" id="form_uno">
+                            <legend><b>Dejanos tu opinión</b></legend>
+                            <fieldset id="Fieldset_uno">
+                                <label style="margin: 7px">
+                                    <p>Set Favorito:</p>
+                                    <select name="Set_fav">
+                                        <option>Junction Festival</option>
+                                        <option>France Airport</option>
+                                        <option>Afterlife Quiairentine</option>
+                                        <option>Time Warp 2016</option>
+                                    </select>
+                                </label>
+                                
+                                <p>
+                                    <label style="margin: 7px">
+                                        <p>
+                                            Ingrese su nombre aqui:
+                                            <input
+                                            type="text"
+                                            name="nombre"
+                                            maxlength="50"
+                                            size="10"
+                                            />
+                                        </p>
+                                    </label>
+                                </p>
+                                
+                                <label>
+                                    <p style="margin: 10px;">Dejanos tu mensaje: </p>
+                                    <textarea name="mensaje"></textarea>
+                                </label>
+                                
+                                <label style="margin: 12px;">
+                                    <p>Selecciona tu país: </p>
+                                    <select multiple name="pais" style="margin-left: 12px;">
+                                        <option value="argentina">Argentina</option>
+                                        <option value="españa">España</option>
+                                        <option value="mexico">Mexico</option>
+                                        <option value="canada">Canáda</option>
+                                        <option value="australia">Australia</option>
+                                    </select>
+                                </label>
+                                
+                                <label>
+                                    <p>Selecciona tus generos de preferencia: </p>
+                                    <input type="checkbox" value="Melodic-t"> "Melodic Techno" <br>
+                                    <input type="checkbox" value="Progressive"> "Progressive" <br>
+                                    <input type="checkbox" value="Melodic-h"> "Melodic House" <br>
+                                    <input type="checkbox" value="Techno"> "Techno" <br>
+                                    <input type="checkbox" value="Acid"> "Acid" <br>
+                                </label>
+                            </fieldset>
+                            
+                            <fieldset>
+                                <legend>Que dj preferís ?</legend>
+                                <label>
+                                    <label style="margin: 12px;">
+                                        <input type="radio" name="dj" value="Mindagainst">Mind against</input>
+                                        <input type="radio" name="dj" value="Solomun">Solomun</input>
+                                        <input type="radio" name="dj" value="Tale of us">Tale of Us</input>
+                                    </label>
+                                </p>
+                                
+                            </fieldset>
+                        
+                            
+                            <input type="submit" value="Enviar" style="margin: 20px;" />
+                    
+                        </form>
+                    </div>
+                </article>         
+            </div>
         </main>
     </body>
 </html>

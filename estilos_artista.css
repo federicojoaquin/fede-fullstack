@@ -1,16 +1,18 @@
 * {
+    box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
 
 header {
-    height: 650px;
+    padding-top: 3.125rem;
+    height: 40.625rem;
+    width: 100%;
+    background-image: url(Tale_of_us.jpg);
     background-size: cover;
-    background-position: center;
-    background: url(Tale_of_us.jpg);
-    background-size: 100%;
     background-repeat: no-repeat;
 }
+
 
 .titulos {
     text-align: center;
@@ -19,6 +21,25 @@ header {
     font-size: 50px;
 }
 
+.nav-responsive-ul {
+    display: none;
+}
+
+.nav_ul {
+    margin: auto;
+    color: white;
+    text-align: center;
+} 
+
+.menu {
+    position: fixed;
+    background: #111111;
+    height: 3.125rem;
+    margin-top: -3.125rem;
+    width: 100%;
+    z-index: 50;
+
+} 
 .Button {
     background: #0652dd;
     color: #ffffff;
@@ -34,32 +55,190 @@ header {
     border-radius: 100px;
 }
 
-nav {
-    background: #111111;
-    height: 175px;
-    margin: 400px 0px 0px 0px;
+
+.Main-box {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+
 article {
-    background: url(afterlife.jpg);
     height: 600px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50%;
-    background-position-y: 5px;
+    background-color: white;
+}
+
+
+.nav_li:hover > a {
+    color: #888888;
+}
+
+
+h1 {
+    margin-top: 400px;
+}
+
+
+.nav_li {
+    margin: auto;
+    display: inline-flex;
+    text-align: center;
+    padding: 1rem;
+    text-align: center;
+    content: 20px;
+    
+}
+
+.nav_li a {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding-left: 1.5rem;
+    color: beige;
+    text-decoration: none;
+    line-height: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+    
+}
+
+.i_norm {
+    margin-right: 1.125rem;
 }
 
 .parrafo_blank {
+    width: 95%;
+    margin: 1rem;
     font-size: 17px;
     line-height: 25px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 10px;
-    margin-right: 300px;
-    margin-left: 20px;
+    position: relative;
+    
 }
 
 #prim {
     width: 300px;
     margin-top: -70px;
     margin-left: 1030px;
+}
+
+.Form-container {
+    margin: auto;
+}
+
+#form_uno {
+    text-align: center;
+    position: relative; 
+    background-color: rgb(241, 240, 240);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1.25rem;
+    border: 0.06rem solid black;
+}
+
+
+#form_uno p {
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 2px 1px #ececec;
+}
+
+
+.nav-button {
+    font-size: 1.125rem;
+}
+
+@media only screen and (max-width: 1015px) {
+
+.nav_ul {
+    display: none;
+}
+
+.nav-responsive-ul {
+    display: block;
+    color: white;
+}
+
+.responsive-bar {
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+
+.nav-li-container {
+    display: none; 
+    margin-top: .9rem;
+    position: relative;
+    height: 100%;
+    background-color: white;
+    padding: 2rem;
+    width: 70%;
+}
+
+.nav-li-container li {
+    display: block;
+    padding-top: 2rem;
+}
+
+.nav-li-container li a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.nav-li-container li i {
+    font-size: 1rem; 
+}
+
+.i_norm {
+    margin-right: 0.2rem;
+
+}
+
+.nav-responsive-ul:hover > .nav-li-container {
+    display: block;
+    transition: all 1s
+}
+
+    
+}
+
+.Tracks-main-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.iframes { 
+    margin: 1rem;
+}
+
+.Paragraf-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.parrafo-aferlife {
+    width: 75%;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}  
+#img-parr {
+    float: right;
+    width: 200px;
+    height: 200px;
+    border: 1px black;  
+}
+
+.Sets-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.Table-container {
+    margin: 1rem;
+    float: left;
 }
